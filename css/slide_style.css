@@ -82,7 +82,7 @@ html {
     width: 100%;
     border-radius: 10px;
 }
-.col{
+.col-lg-3{
     padding: 0px !important;
 }
 .menu-icon i {
@@ -320,16 +320,15 @@ html {
 
 }
 /* menu container */
-.col-6{
+.col-lg-3{
     background-color: #f6f5f2 ;
-    width: 49%!important;
     padding-right:0!important;
     padding-top: 25px;
     margin-right: 1%;
     margin-bottom: 1%;
 }
-.col-6:hover{
-    transition: ease 0.5s;
+.col-lg-3:hover{
+    transition:0.5s;
     border: black solid 2px;
     border-radius:5px 5px 5px 5px;
 }
@@ -354,13 +353,16 @@ html {
     float: right;
 }
 .menu-img{
+
     margin-right: auto;
     margin-left: auto;
-    display: table;
 }
 .menu-img img{
+    object-fit: cover;
+    width: 100%;
     /* border: black solid 1px; */
     border-radius: 5px 5px 5px 5px;
+    transition: 0.5s;
 }
 figcaption{
     text-align: center;
